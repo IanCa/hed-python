@@ -4,15 +4,15 @@ updates:
     directory: "/"
     target-branch: "develop"
     schedule:
-      interval: "weekly"
+      interval: "daily"
   - package-ecosystem: "pip"
     directory: "/"
     target-branch: "develop"
     schedule:
-      interval: "hourly"
+      interval: "daily"
 
   - package-ecosystem: "gitsubmodule"
     schedule:
-        interval: "hourly"
+        interval: "daily"
     target-branch: "develop"
     directory: /
