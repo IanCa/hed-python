@@ -9,10 +9,10 @@ updates:
     directory: "/"
     target-branch: "develop"
     schedule:
-      interval: "weekly"
+      interval: "hourly"
 
   - package-ecosystem: "gitsubmodule"
     schedule:
-        interval: "daily"
+        interval: "hourly"
     target-branch: "develop"
     directory: /
